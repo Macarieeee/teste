@@ -1,5 +1,5 @@
 .flexing-container {
-  margin-top: 5%;
+  margin-top: 10%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -25,4 +25,22 @@
 .flexing-elements > .module .description {
   height: 7rem !important;
   overflow-y: scroll;
+}
+
+@media screen and (max-width: 1000px) {
+  .flexing-elements {
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+
+  .flexing-elements > .module {
+    margin-top: 1rem;
+    width: 90% !important;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .flexing-container {
+    margin-top: 20%;
+  }
 }
