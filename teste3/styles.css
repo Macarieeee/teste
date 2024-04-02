@@ -27,6 +27,10 @@
   overflow-y: scroll;
 }
 
+.button {
+  background-color: #1c3f95 !important;
+}
+
 @media screen and (max-width: 1000px) {
   .flexing-elements {
     flex-direction: column;
